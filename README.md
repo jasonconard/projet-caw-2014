@@ -4,16 +4,14 @@ ProjetCaw-2014
 Projet Caw pour l'encodage des caractères
 
 8 personnes : 
-
-Quentin git : QuentinOsmont
-Jason git : JasonConard
-Hilali git : Hilali1
-Mounir normal git : amrharmounir 
-Mounir italien git : Mounirit
-Bastien git : 
-Roshanak git : Roshanak
-Saidane git : foufou2013
-
+- Quentin git : QuentinOsmont
+- Jason git : JasonConard
+- Hilali git : Hilali1
+- Mounir normal git : amrharmounir 
+- Mounir italien git : Mounirit
+- Bastien git : 
+- Roshanak git : Roshanak
+- Saidane git : foufou2013
 
 
 Client : Saidane, Roshanak, Mounir, Hilali
