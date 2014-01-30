@@ -1,4 +1,4 @@
-ProjetCaw-2014
+hèqyeProjetCaw-2014
 ==============
 
 Projet Caw pour l'encodage des caractères
@@ -26,3 +26,9 @@ Serveur : Jason, Quentin, Mounirit, Bastien
 - Partie modèle objet -> Quentin
 - Tests partie contrôleur ( avec maven ou junit ) ->
 - Tests partie modèle objet -> Jason
+
+Pour travailler sur le projet avec git :
+- Cloner le git : git clone https://github.com/JasonConard/ProjetCaw.git
+- git init 
+- git add new_file
+- git commit
