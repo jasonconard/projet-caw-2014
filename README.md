@@ -32,3 +32,4 @@ Pour travailler sur le projet avec git :
 - git init 
 - git add new_file
 - git commit
+- git push origin master //Pour ajouter le commit au git de Jason(origin) à la branche principale(master)
