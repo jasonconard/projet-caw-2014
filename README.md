@@ -28,7 +28,7 @@ Serveur : Jason, Quentin, Mounirit, Bastien
 - Tests partie modèle objet -> Jason
 
 Pour travailler sur le projet avec git :
-- Cloner le git : git clone https://github.com/JasonConard/ProjetCaw.git
+- Cloner le git : git clone https://github.com/JasonConard/ProjetCaw-2014
 - git init 
 - git add new_file
 - git commit
