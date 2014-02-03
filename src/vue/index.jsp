@@ -34,15 +34,15 @@
       success    : function() {           // Info Debuggage si erreur     
                    alert("fin de traitement");
                  },
-            $.getJSON('/js/file.json', function(donnees) {
-            var i = 0;
-            while(i != donnees.length){
-            $('#r').html('<tr><td>'+ donnees.characters[i][0] +'</td>'); 
-            $('#r').append('<td>' + donnees.characters[i][1] + '</td>');
-            $('#r').append('<td>' + donnees.characters[i][2] + '</td>'); 
-            $('#r').append('<td>' + donnees.characters[i][3] + '</td></tr>');
-            i++;
-            }   
+	$.getJSON('/js/file.json', function(donnees) {
+	var i = 0;
+	while(i != donnees.length){
+	$('#r').html('<tr><td>'+ donnees.characters.tableau[i].char +'</td>'); 
+	$('#r').append('<td>' + donnees.characters.tableau[i].dec + '</td>');
+	$('#r').append('<td>' + donnees.characters.tableau[i].hex + '</td>'); 
+	$('#r').append('<td>' + donnees.characters.tableau[i].html + '</td></tr>');
+	i++;
+	}   
             });
         });
      });
