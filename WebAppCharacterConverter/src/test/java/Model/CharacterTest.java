@@ -11,7 +11,7 @@ public class CharacterTest {
     public void testToJson() throws Exception {
     	Character c = new Character('é');
     	c.init();
-    	String expectedResult = "{\"é\", \"233\",\"e9\",\"&eacute;\"}";
+    	String expectedResult = "{\"char\":\"é\", \"dec\":\"233\", \"hex\":\"e9\", \"html\":\"&eacute;\"}";
     	System.out.println(expectedResult);
     	String currentResult = c.toJson(); 
     	System.out.println(currentResult);
