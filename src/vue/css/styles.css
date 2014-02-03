@@ -1,0 +1,13 @@
+.container{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.row{
+	margin-bottom: 5px;
+}
+th{
+  background-color: #bcbcbc;
+}
+th,td{
+  text-align: center;
+}

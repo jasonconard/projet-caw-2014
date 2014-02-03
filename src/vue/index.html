@@ -1,22 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
+    <title>Web App -CAW Project 2014-</title>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="shortcut icon" href="css/favicon.ico">
-    <title>ProjetCAW2014</title>
-    <!-- Bootstrap core CSS -->
-    <link href="CSS/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom styles for this template -->
-    <link href="CSS/blog.css" rel="stylesheet">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.css" rel="stylesheet">
+    <!--styles additionnels-->
+    <link href="css/styles.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
   </head>
-
   <body>
-
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -24,59 +24,77 @@
         </div>
       </div>
     </div>
-<br/><br/>
+
     <div class="container">
-    <br/><br/><br/><br/>
-          <h2 class="sub-header">table format to use</h2>
+  		<div class="row">
+  		  <div class="col-xs-12">
+          <!--
+          <form role="form" class="form-inline" action="#">
+            <div class="form-group" >
+                <label class="sr-only" for="caractere">Caractère : </label>
+                <input type="text" id="caractervalue" class="form-control" name="caractervalue" placeholder="Caractères">
+                <button type="submit" class="btn btn-default">Envoyer</button>
+            </div>
+          </form>-->
+          
+          <form role="form" action="#">
+            <div class="row">
+              <!--<div class="col-xs-2"><label for="exampleInputEmail1"  class="sr-only">Caractère : </label></div>-->
+              <div class="col-md-8">
+                <label for="caractere"  class="sr-only">Caractère : </label>
+                <input type="caractere" class="form-control" id="caractere" placeholder="Caractère">
+              </div>
+              <div class="col-md-2">
+                <button type="submit" class="btn  btn-default btn-block" title="Envoyer">Envoyer</button>
+              </div>
+              <div class="col-md-2">
+                <button type="erase" class="btn  btn-default btn-block" title="Effacer">Effacer</span></button>
+              </div>
+            </div>
+
+           </form>
+        </div>
+  		</div>
+      <div class="row">
+        <div class="col-xs-12">
           <div class="table-responsive">
-            <table class="table table-striped">
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>Header</th>
-                  <th>Header</th>
-                  <th>Header</th>
-                  <th>Header</th>
-                </tr>
+            <table class="table table-striped table-bordered table-hover table-condensed">
+            <thead>
+              <tr>
+                <th>Caractère</th>
+                <th>Décimal</th>
+                <th>Hexadécimal</th>
+                <th>HTML</th>
+              </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>1,001</td>
-                  <td>Lorem</td>
-                  <td>ipsum</td>
-                  <td>dolor</td>
-                  <td>sit</td>
+                  <td>a</td>
+                  <td>97</td>
+                  <td>61</td>
+                  <td>&0x61;</td>
                 </tr>
                 <tr>
-                  <td>1,002</td>
-                  <td>amet</td>
-                  <td>consectetur</td>
-                  <td>adipiscing</td>
-                  <td>elit</td>
+                  <td>a</td>
+                  <td>97</td>
+                  <td>61</td>
+                  <td>&0x61;</td>
                 </tr>
                 <tr>
-                  <td>1,003</td>
-                  <td>Integer</td>
-                  <td>nec</td>
-                  <td>odio</td>
-                  <td>Praesent</td>
+                  <td>a</td>
+                  <td>97</td>
+                  <td>61</td>
+                  <td>&0x61;</td>
                 </tr>
               </tbody>
             </table>
           </div>
-
-    </div><!-- /.container -->
-<br/><br/><br/><br/>
-    <div class="blog-footer">
-      <p>Touts droits réservée au Group   
-      <a href="http://matis.univ-lehavre.fr/">MATIS</a>  <br/>
-      <b>supervised by: </b>Monsieur Yoann Pigné<br/>
-      <b>Client developed by: </b>Saidane, Roshanak, Mounir, Hilali<br/>
-      <b> Serveur develiped by:  </b>Jason, Quentin, Mounirit, Bastien</p>
-      <p>
-      </p>
+        </div>
+      </div>
     </div>
-
-
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
