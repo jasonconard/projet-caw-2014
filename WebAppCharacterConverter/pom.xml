@@ -11,5 +11,50 @@
 			<artifactId>commons-lang3</artifactId>
 			<version>3.2.1</version>
 		</dependency>
+		<dependency>
+      		<groupId>junit</groupId>
+      		<artifactId>junit</artifactId>
+      		<version>4.0</version>
+    	</dependency>
+    	<dependency>
+      		<groupId>javax.servlet</groupId>
+      		<artifactId>servlet-api</artifactId>
+      		<version>2.5</version>
+      		<scope>provided</scope>
+    	</dependency>
+    	<dependency>
+      		<groupId>javax.servlet.jsp</groupId>
+      		<artifactId>jsp-api</artifactId>
+      		<version>2.1</version>
+      		<scope>provided</scope>
+    	</dependency>
 	</dependencies>
+	<build>
+		<finalName>WebAppCharacterConverter</finalName>
+		<pluginManagement>
+			<plugins>
+		        <plugin>
+		        	<groupId>org.apache.maven.plugins</groupId>
+		            <artifactId>maven-compiler-plugin</artifactId>
+		            <configuration>
+		                <source>1.7</source>
+		                <target>1.7</target>
+		            </configuration>
+		        </plugin>
+
+		        <plugin>
+		        	<groupId>org.apache.tomcat.maven</groupId>
+		        	<artifactId>tomcat7-maven-plugin</artifactId>
+		            <configuration>
+		            	<path>/${project.build.finalName}</path>
+		            	<update>true</update>
+		            	<url>http://localhost:8080/manager/text</url>
+		                <username>tomcat</username>
+		                <password>123soleil</password>
+		            </configuration>
+		        </plugin>
+		    </plugins>
+		</pluginManagement>
+	</build>
+	
 </project>
