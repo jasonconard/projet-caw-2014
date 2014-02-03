@@ -45,8 +45,10 @@ public class JsonToFile {
 	}
 	
 	private void creationWriter() throws IOException{
+		
 		try{
-			bw = new BufferedWriter(new FileWriter("json_file.json"));
+			bw = new BufferedWriter(new FileWriter(fichier));
+			System.out.println("ok! ");
 		}catch(IOException ieo){
 			throw new IOException("Erreur creation fichier "+ fichier);
 		}
