@@ -64,8 +64,6 @@ public class JsonToFile {
 			else
 				chaine+="\t"+caracteres.get(i) + ",\n";
 		}
-
-		
 		chaine+="]\n";
 		chaine+="}";
 		return chaine;
