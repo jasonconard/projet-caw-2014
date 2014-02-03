@@ -31,8 +31,8 @@ public class Character {
 	
 	/*returns data in JSON format*/	
 	public String toJson(char charactere){
-		String s="{\n";
-		s+=charactere+" {\""+getCharDec()+"\",\""+getCharHexa()+"\",\""+getCharHtml()+"\"}\n}";
+		String s="";
+		s+="{\""+charactere+"\", \""+getCharDec()+"\",\""+getCharHexa()+"\",\""+getCharHtml()+"\"}";
 		return s;
 	}
 	
