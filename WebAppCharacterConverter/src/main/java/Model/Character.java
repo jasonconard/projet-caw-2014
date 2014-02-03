@@ -41,7 +41,7 @@ public class Character {
 		/*initialize*/
 		init();
 		String s="";
-		s+="{\""+this.charId+"\", \""+getCharDec()+"\",\""+getCharHexa()+"\",\""+getCharHtml()+"\"}";
+		s+="{\"char\":\""+this.charId+"\", \"dec\":\""+getCharDec()+"\", \"hex\":\""+getCharHexa()+"\", \"html\":\""+getCharHtml()+"\"}";
 		return s;
 	}
 
@@ -62,4 +62,6 @@ public class Character {
 		String json = c.toJson();
 		System.out.println("Format JSON :" + json);
 	}
+
+
 }

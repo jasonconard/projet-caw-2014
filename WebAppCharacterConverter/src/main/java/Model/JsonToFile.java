@@ -12,12 +12,12 @@ public class JsonToFile {
 	private ArrayList<String> caracteres;
 	
 	
-	private final String fichier = "json_file.txt";
+	private final String fichier = "json_file.json";
 	private String chaineATraiter;
 	
 	public JsonToFile(String chaine) throws IOException{
 		creationWriter();
-		caracteres = new ArrayList<>();
+		caracteres = new ArrayList<String>();
 		this.chaineATraiter = chaine;
 		recuperation();
 	}
