@@ -55,7 +55,6 @@ public class JsonToFile {
 	
 	String chaineAAfficher(){
 		String chaine = new String();
-		chaine+="{ \""+ this.chaineATraiter +"\" : \n";
 		chaine+="{ \"tableau\":\n";
 		chaine+="[\n";
 		
