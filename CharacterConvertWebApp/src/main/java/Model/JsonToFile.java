@@ -12,7 +12,7 @@ public class JsonToFile {
 	private ArrayList<String> caracteres;
 	
 	
-	private final String fichier = "json_file.json";
+	private final String fichier = "src/main/webapp/json_file.json";
 	private String chaineATraiter;
 	
 	public JsonToFile(String chaine) throws IOException{
