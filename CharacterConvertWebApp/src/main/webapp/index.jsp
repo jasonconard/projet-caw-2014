@@ -114,12 +114,14 @@
 	
 		    $.ajax({                   
 	      		type     :  "POST",
-	     		url      :  "index.jsp",    
+	     		url      :  "controller",    
 	      		data     :  chaineCaractere,
 	      		cache    :  false,
 	      		dataType :  "json",
 	      		success    : function() {           // Info Debuggage si erreur     
 	            	alert("fin de traitement");
+	            }, error    : function() {           // Info Debuggage si erreur     
+	            	alert("Erreur !");
 	            }
 		    });
 	    
@@ -127,13 +129,14 @@
     	});
     	
     	$("#erase").click(function(){
-    		
+    		$('#r').html("");
     	});
      });
 	
 	function appelJSON(){
 		$.getJSON('json_file.json', function(donnees) {
 			var i = 0;
+			$('#r').html("");
 			while(i != donnees.length){
 				var d = donnees.tableau;
 				var s = "<tr><td>"+ d[i].char +"</td>";
