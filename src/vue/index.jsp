@@ -34,7 +34,7 @@
       success    : function() {           // Info Debuggage si erreur     
                    alert("fin de traitement");
                  },
-	$.getJSON('/js/file.json', function(donnees) {
+	$.getJSON('json_file.json', function(donnees) {
 	var i = 0;
 	while(i != donnees.length){
 	$('#r').html('<tr><td>'+ donnees.characters.tableau[i].char +'</td>'); 
