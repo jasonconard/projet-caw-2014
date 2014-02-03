@@ -62,4 +62,6 @@ public class Character {
 		String json = c.toJson();
 		System.out.println("Format JSON :" + json);
 	}
+
+
 }

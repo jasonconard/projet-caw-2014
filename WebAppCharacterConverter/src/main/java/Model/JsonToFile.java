@@ -17,7 +17,7 @@ public class JsonToFile {
 	
 	public JsonToFile(String chaine) throws IOException{
 		creationWriter();
-		caracteres = new ArrayList<>();
+		caracteres = new ArrayList<String>();
 		this.chaineATraiter = chaine;
 		recuperation();
 	}
