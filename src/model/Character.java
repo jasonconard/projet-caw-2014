@@ -30,9 +30,9 @@ public class Character {
 	public void charToHtml(){ setCharHtml(StringEscapeUtils.escapeHtml4(charId+""));} 
 	
 	/*returns data in JSON format*/	
-	public String toJson(char charactere){
+	public String toJson(){
 		String s="";
-		s+="{\""+charactere+"\", \""+getCharDec()+"\",\""+getCharHexa()+"\",\""+getCharHtml()+"\"}";
+		s+="{\""+this.charId+"\", \""+getCharDec()+"\",\""+getCharHexa()+"\",\""+getCharHtml()+"\"}";
 		return s;
 	}
 	
@@ -52,7 +52,7 @@ public class Character {
 		System.out.println("CharToHtml : "+ c.getCharHtml());
 		
 		/*ToJson*/
-		String json = c.toJson(c.getCharId());
+		String json = c.toJson();
 		System.out.println("Format JSON :" + json);
 	}
 }
