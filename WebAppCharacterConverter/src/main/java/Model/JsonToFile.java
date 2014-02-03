@@ -56,6 +56,7 @@ public class JsonToFile {
 	String chaineAAfficher(){
 		String chaine = new String();
 		chaine+="{ \""+ this.chaineATraiter +"\" : \n";
+		chaine+="{ \"tableau\":\n";
 		chaine+="[\n";
 		
 		for(int i = 0; i < caracteres.size(); i++){
@@ -73,18 +74,6 @@ public class JsonToFile {
 	
 	public void ecriture() throws IOException{
 		bw.write(this.chaineAAfficher());
-//		bw.write("{ \""+ this.chaineATraiter +"\":\n {");
-//		bw.write("[");
-//		
-//		for(int i = 0; i < caracteres.size(); i++){
-//			if(i == (caracteres.size() - 1))
-//				bw.write("\t"+caracteres.get(i) + "\n");
-//			else
-//				bw.write("\t"+caracteres.get(i) + ",\n");
-//		}
-//		
-//		bw.write("]");
-//		bw.write("}");
 		bw.close();
 	}
 	
