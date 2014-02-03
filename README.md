@@ -1,4 +1,4 @@
-hèqyeProjetCaw-2014
+ProjetCaw-2014
 ==============
 
 Projet Caw pour l'encodage des caractères
@@ -28,8 +28,9 @@ Serveur : Jason, Quentin, Mounirit, Bastien
 - Tests partie modèle objet -> Jason
 
 Pour travailler sur le projet avec git :
-- Cloner le git : git clone https://github.com/JasonConard/ProjetCaw.git
-- git init 
-- git add new_file
-- git commit
+- Cloner le git : git clone https://github.com/JasonConard/ProjetCaw-2014 //à la première initialisation du projet
+- git init //initialise le projet, le prépare à être modifié
+- git add new_file //ajoute un fichier
+- git commit -m "Commentaire" //envoie le fichier au projet
 - git push origin master //Pour ajouter le commit au git de Jason(origin) à la branche principale(master)
+- git pull //récupère les modifications effectuées par les autres membres du projet
