@@ -1,3 +1,0 @@
-Pour utiliser le modèle Character, il faut ajouter sous eclipse la bibliothèque commons-lang3-3.2.1.jar.
-Pour cela, clique droit sur le nom du projet dans l'explorateur d'eclipse, puis cliquer sur Propriétés.
-Puis dans Java Build Path, dans l'onglet Libraries, apuuyer sur Add External JARs et choisir la bibliothèque déposée sur le git.
