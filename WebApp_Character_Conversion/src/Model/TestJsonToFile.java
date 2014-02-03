@@ -1,4 +1,4 @@
-package creation_fichier;
+package Model;
 
 import static org.junit.Assert.*;
 
